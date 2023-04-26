@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Hangfire_background_jobs.props" />
+</Project>

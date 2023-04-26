@@ -7,6 +7,7 @@ namespace Hangfire_background_jobs.Controllers
     [ApiController]
     public class PollyController : ControllerBase
     {
+        //polly ,bulkhead and circute breaker are also implemented in weather controller 
         private readonly IHttpClientFactory _clientfactroy;
         public PollyController(IHttpClientFactory clientfactroy)
         {
